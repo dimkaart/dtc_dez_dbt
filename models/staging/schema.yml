@@ -2,10 +2,10 @@ version: 2
 
 sources:
     - name: staging
-     database: warm-ring-374916
-     schema: dtc_dez_ny_taxi
+      database: warm-ring-374916
+      schema: dbt_dimkaart
 
-     tables:
-      - name: rides_green
-      - name: rides_yellow
-      - name: rides_fhv
+      tables:
+        - name: rides_green
+        - name: rides_yellow
+        - name: rides_fhv
