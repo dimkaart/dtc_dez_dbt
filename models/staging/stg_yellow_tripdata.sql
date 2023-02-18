@@ -41,6 +41,7 @@ select
 
 FROM tripdata
 WHERE rn=1
+AND pickup_datetime between '2019-01-01' and '2020-12-31'
 -- dbt build -m <model.sql> --var 'is_test_run: false'
 {% if var('is_test_run', default=false) %} -- variable to run model with or without limiter 
 --> dbt run --select <model> --var 'is_test_run: true'
