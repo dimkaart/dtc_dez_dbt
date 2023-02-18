@@ -1,4 +1,4 @@
-{{ config(materialized='view') }}
+{{ config(materialized='view') }} -- materialization strategy (table, view, incremental, ephemeral)
 
 select
  -- identifiers
@@ -27,8 +27,8 @@ select
     cast(improvement_surcharge as numeric) as improvement_surcharge,
     cast(total_amount as numeric) as total_amount,
     cast(payment_type as integer) as payment_type,
-    {{ get_payment_type_description('payment_type') }} as get_payment_type_description,
+    {{ get_payment_type_description('payment_type') }} as get_payment_type_description, -- macro for calculation in get_payment_type_description.sql
     cast(congestion_surcharge as numeric) as congestion_surcharge 
 
-from {{ source('staging', 'rides_green') }}
-limit 100
+FROM {{ source('staging', 'rides_green') }} -- macro for FROM clause in schema.yml
+LIMIT 100
