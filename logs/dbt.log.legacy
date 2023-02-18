@@ -17037,3 +17037,21 @@ There are 1 unused configuration paths:
 2023-02-18 19:58:05.218791 (Thread-625): 19:58:05  Found 5 models, 11 tests, 0 snapshots, 0 analyses, 522 macros, 0 operations, 1 seed file, 3 sources, 0 exposures, 0 metrics
 2023-02-18 19:58:05.218925 (Thread-625): 19:58:05  Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '00262c1b-466e-4eac-88b4-84472a97e15d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f99543ee130>]}
 2023-02-18 19:58:05.222439 (Thread-625): sending response (<Response 17408 bytes [200 OK]>) to 10.0.211.232
+2023-02-18 19:58:22.269181 (Thread-627): 19:58:22  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2023-02-18 19:58:22.269422 (Thread-627): 19:58:22  Partial parsing enabled, no changes found, skipping parsing
+2023-02-18 19:58:22.270116 (Thread-627): 19:58:22  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.taxi_rides_ny.example
+2023-02-18 19:58:22.276699 (Thread-627): 19:58:22  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '00262c1b-466e-4eac-88b4-84472a97e15d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f98806ce7c0>]}
+2023-02-18 19:58:22.360462 (Thread-628): handling status request
+2023-02-18 19:58:22.361125 (Thread-628): 19:58:22  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '00262c1b-466e-4eac-88b4-84472a97e15d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f98807921f0>]}
+2023-02-18 19:58:22.361614 (Thread-628): sending response (<Response 1677 bytes [200 OK]>) to 10.0.211.232
+2023-02-18 19:58:22.468434 (Thread-629): handling status request
+2023-02-18 19:58:22.468876 (Thread-629): 19:58:22  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '00262c1b-466e-4eac-88b4-84472a97e15d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9880792310>]}
+2023-02-18 19:58:22.469342 (Thread-629): sending response (<Response 1660 bytes [200 OK]>) to 10.0.211.232
+2023-02-18 19:58:22.474026 (Thread-630): handling list request
+2023-02-18 19:58:22.474335 (Thread-630): 19:58:22  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '00262c1b-466e-4eac-88b4-84472a97e15d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9880792160>]}
+2023-02-18 19:58:22.504774 (Thread-630): 19:58:22  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '00262c1b-466e-4eac-88b4-84472a97e15d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f98807923d0>]}
+2023-02-18 19:58:22.505237 (Thread-630): 19:58:22  Found 5 models, 11 tests, 0 snapshots, 0 analyses, 522 macros, 0 operations, 1 seed file, 3 sources, 0 exposures, 0 metrics
+2023-02-18 19:58:22.505532 (Thread-630): 19:58:22  Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '00262c1b-466e-4eac-88b4-84472a97e15d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f99543664f0>]}
+2023-02-18 19:58:22.508722 (Thread-630): sending response (<Response 16076 bytes [200 OK]>) to 10.0.211.232
