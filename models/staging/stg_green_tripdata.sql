@@ -41,8 +41,8 @@ select
 FROM tripdata
 WHERE rn=1
 -- dbt build -m <model.sql> --var 'is_test_run: false'
-{% if var('is_test_run', default=true) %} -- variable to run model with or without limiter 
---> dbt run --select <model> --var 'is_test_run: false'
+{% if var('is_test_run', default=false) %} -- variable to run model with or without limiter 
+--> dbt run --select <model> --var 'is_test_run: true'
 
     LIMIT 100
 
