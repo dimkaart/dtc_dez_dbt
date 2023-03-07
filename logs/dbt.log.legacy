@@ -18578,3 +18578,34 @@ There are 1 unused configuration paths:
 2023-02-19 17:25:39.159421 (Thread-222): handling status request
 2023-02-19 17:25:39.159871 (Thread-222): 17:25:39  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '3662d7a5-4a2f-42e2-a86c-1ce3ce6de19d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb38e1eaca0>]}
 2023-02-19 17:25:39.160376 (Thread-222): sending response (<Response 4001 bytes [200 OK]>) to 10.0.211.232
+2023-03-07 20:58:39.382945 (Thread-4): "locationid" does not match the name of any column in this table.
+2023-03-07 20:58:39.399588 (Thread-3): unclosed <ssl.SSLSocket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.132.0.3', 57140), raddr=('66.102.1.95', 443)>
+2023-03-07 20:58:39.527436 (Thread-1): unclosed <ssl.SSLSocket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.132.0.3', 57128), raddr=('66.102.1.95', 443)>
+2023-03-07 20:58:40.009827 (MainThread): unclosed <ssl.SSLSocket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.132.0.3', 57146), raddr=('66.102.1.95', 443)>
+2023-03-07 20:58:40.010248 (MainThread): unclosed <ssl.SSLSocket fd=12, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.132.0.3', 57170), raddr=('66.102.1.95', 443)>
+2023-03-07 21:02:03.121569 (Thread-2): unclosed <ssl.SSLSocket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.132.0.3', 40732), raddr=('108.177.15.95', 443)>
+2023-03-07 21:02:03.122439 (Thread-2): unclosed <ssl.SSLSocket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.132.0.3', 40734), raddr=('108.177.15.95', 443)>
+2023-03-07 21:02:03.124183 (Thread-2): unclosed <ssl.SSLSocket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.132.0.3', 40746), raddr=('108.177.15.95', 443)>
+2023-03-07 21:02:03.182311 (Thread-4): "locationid" does not match the name of any column in this table.
+2023-03-07 21:02:04.502825 (Thread-1): unclosed <ssl.SSLSocket fd=12, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.132.0.3', 40786), raddr=('108.177.15.95', 443)>
+2023-03-07 21:02:04.503402 (Thread-1): unclosed <ssl.SSLSocket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.132.0.3', 40776), raddr=('108.177.15.95', 443)>
+2023-03-07 21:02:07.072713 (Thread-1): unclosed <ssl.SSLSocket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.132.0.3', 40794), raddr=('108.177.15.95', 443)>
+2023-03-07 21:02:12.312381 (Thread-4): unclosed <ssl.SSLSocket fd=15, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.132.0.3', 40258), raddr=('108.177.15.95', 443)>
+2023-03-07 21:02:15.510251 (Thread-4): unclosed <ssl.SSLSocket fd=15, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.132.0.3', 40270), raddr=('108.177.15.95', 443)>
+2023-03-07 21:03:06.725682 (Thread-4): unclosed <ssl.SSLSocket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.132.0.3', 46094), raddr=('108.177.15.95', 443)>
+2023-03-07 21:03:08.148879 (MainThread): unclosed <ssl.SSLSocket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.132.0.3', 42292), raddr=('108.177.15.95', 443)>
+2023-03-07 21:19:51.831626 (Thread-3): unclosed <ssl.SSLSocket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.132.0.3', 44810), raddr=('64.233.166.95', 443)>
+2023-03-07 21:19:51.832504 (Thread-3): unclosed <ssl.SSLSocket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.132.0.3', 44816), raddr=('64.233.166.95', 443)>
+2023-03-07 21:19:51.922984 (Thread-4): "locationid" does not match the name of any column in this table.
+2023-03-07 21:19:52.895367 (Thread-2): unclosed <ssl.SSLSocket fd=13, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.132.0.3', 44868), raddr=('64.233.166.95', 443)>
+2023-03-07 21:19:52.896546 (Thread-2): unclosed <ssl.SSLSocket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.132.0.3', 44842), raddr=('64.233.166.95', 443)>
+2023-03-07 21:19:55.411486 (Thread-3): unclosed <ssl.SSLSocket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.132.0.3', 44884), raddr=('64.233.166.95', 443)>
+2023-03-07 21:19:55.412010 (Thread-3): unclosed <ssl.SSLSocket fd=11, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.132.0.3', 44900), raddr=('64.233.166.95', 443)>
+2023-03-07 21:20:02.870758 (Thread-2): unclosed <ssl.SSLSocket fd=13, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.132.0.3', 56606), raddr=('64.233.166.95', 443)>
+2023-03-07 21:20:02.871320 (Thread-2): unclosed <ssl.SSLSocket fd=15, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.132.0.3', 56616), raddr=('64.233.166.95', 443)>
+2023-03-07 21:20:02.982782 (Thread-2): unclosed <ssl.SSLSocket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.132.0.3', 44830), raddr=('64.233.166.95', 443)>
+2023-03-07 21:20:02.983203 (Thread-2): unclosed <ssl.SSLSocket fd=12, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.132.0.3', 44852), raddr=('64.233.166.95', 443)>
+2023-03-07 21:20:02.983480 (Thread-2): unclosed <ssl.SSLSocket fd=14, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.132.0.3', 44908), raddr=('64.233.166.95', 443)>
+2023-03-07 21:20:02.983699 (Thread-2): unclosed <ssl.SSLSocket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.132.0.3', 44912), raddr=('64.233.166.95', 443)>
+2023-03-07 21:20:57.833534 (MainThread): unclosed <ssl.SSLSocket fd=13, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.132.0.3', 52294), raddr=('64.233.166.95', 443)>
+2023-03-07 21:20:57.834157 (MainThread): unclosed <ssl.SSLSocket fd=14, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.132.0.3', 56132), raddr=('64.233.166.95', 443)>
